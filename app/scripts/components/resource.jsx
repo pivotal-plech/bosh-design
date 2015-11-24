@@ -22,7 +22,7 @@ var Resource = React.createClass({
                 <p className="type-sm mtl mbn"><a href="https://github.com/cloudfoundry/cf-release/tree/24c131a5/"><code>24c131a5</code></a> <span className="type-dark-5">or</span> <a href="https://github.com/cloudfoundry/cf-release/tree/master/">master</a> <span className="type-dark-5">branch</span></p>
               </Col>
               <Col md={12} className="txt-r">
-                <p className="type-sm mvn"><a href="#/resources/release/all-versions">View All Releases</a></p>
+                <p className="type-sm mvn"><a href="#/resources/release/all-versions">View All Release Versions</a></p>
               </Col>
             </Row>
           </div>
