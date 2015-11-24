@@ -1,0 +1,54 @@
+/* TODO */
+/* All the desings */
+
+@import 'variables';
+
+html, body {
+  color: $dark-2 !important;
+  background-color: $dark-11;
+}
+
+.splash {
+  height: calc(100vh - 70px);
+  display: flex;
+  h2 {
+    text-align: center;
+    align-self: center;
+    flex: 1;
+  }
+}
+
+.why {
+  border-right: 1px solid $dark-9;
+  border-bottom: 1px solid $dark-9;
+  padding: 150px 50px;
+  p {
+    color: $dark-4;
+  }
+  .h4 {
+    color: $dark-2;
+  }
+}
+
+.divider-1 {
+  border-color: rgba(255,255,255,.5);
+}
+
+.front {
+  stroke-width: 4px;
+}
+
+.back {
+  stroke-width: 2px;
+  opacity: .5;
+}
+
+.front, .back {
+  fill: none;
+  stroke: $brand-6;
+}
+
+svg.block {
+  display: block;
+  margin-right: 20px;
+}

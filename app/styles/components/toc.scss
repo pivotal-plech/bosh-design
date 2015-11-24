@@ -1,0 +1,30 @@
+@import 'variables';
+
+.toc {
+  display: none;
+}
+
+
+@media (min-width: 800px) {
+  .toc {
+    max-width: 350px;
+    display: block;
+    background-color: $dark-11;
+    padding: 15px;
+    border-right: 1px solid $dark-10;
+    ul li ul {
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        margin: 15px 0;
+        font-size: 14px;
+        a {
+          color: $dark-4 !important;
+        }
+      }
+    }
+  }
+}

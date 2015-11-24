@@ -1,0 +1,28 @@
+@import 'variables';
+
+.btn-marketing {
+  display: inline-block;
+  color: $accent-5;
+  border-radius: 0;
+  background-color: white;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  font-size: 6vw;
+  font-weight: 100;
+  padding: 20px 70px;
+  transition: box-shadow 600ms linear;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,.1);
+  &:hover {
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.2);
+  }
+  &:active {
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.1);
+  }
+}
+
+@media (min-width: 720px) {
+  .btn-marketing {
+    font-size: 1.75vw !important;
+  }
+}

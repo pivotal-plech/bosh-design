@@ -1,0 +1,23 @@
+@import 'variables';
+
+.nav {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .nav {
+    background: transparent;
+    display: block;
+    flex: 1;
+    text-align: right;
+    font-family: 'Titillium Web', sans-serif;
+    a {
+      font-size: 18px !important;
+      color: $dark-3;
+      letter-spacing: .025em;
+      &.active {
+        color: $accent-5;
+      }
+    }
+  }
+}
