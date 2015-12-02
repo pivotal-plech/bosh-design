@@ -1,0 +1,23 @@
+@import "variables";
+
+.panel-item {
+  border-bottom: 1px solid $dark-10;
+  padding: 15px;
+  &:hover {
+    background: rgba(0,0,0,.025);
+    transition: all 250ms linear;
+    cursor: pointer;
+  }
+}
+
+.panel-item-title {
+  color: $dark-1;
+  margin: 0;
+  font-size: 16px;
+}
+
+.panel-item-info {
+  font-size: 14px;
+  color: $dark-5;
+  margin: 0;
+}

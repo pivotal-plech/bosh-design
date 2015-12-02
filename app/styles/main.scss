@@ -6,6 +6,11 @@
 @import 'components/btn-marketing';
 @import 'components/toc';
 @import 'components/section-title';
+@import 'components/panel-item';
+
+
+
+
 
 body, html {
   font-family: "Fira Sans", serif;
@@ -64,6 +69,8 @@ body, html {
   border: none;
   font-size: 12px;
 }
+
+
 
 .alert-warning {
   padding: 10px;
@@ -421,4 +428,15 @@ nav.collapse.in {
 
 .tab-simple .nav>li.active>a:after {
   background-color: #1299E9;
+}
+
+.stemcells-panel .panel-body {
+  padding: 0 !important;
+}
+
+.stemcells-panel.panel-basic-alt {
+  &:hover {
+    background: white;
+    cursor: default;
+  }
 }
