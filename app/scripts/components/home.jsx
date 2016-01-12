@@ -37,7 +37,6 @@ var Home = React.createClass({
       <div className="home">
         <Splash />
         <Example />
-        <How />
         <Principles />
         <Explore />
       </div>

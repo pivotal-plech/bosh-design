@@ -9,9 +9,16 @@
   .toc {
     max-width: 350px;
     display: block;
-    background-color: $dark-11;
-    padding: 15px;
+    background-color: $neutral-11;
+    padding: 0;
     border-right: 1px solid $dark-10;
+    hr {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    > ul {
+      padding: 15px;
+    }
     ul li ul {
       padding-left: 10px;
     }
@@ -21,9 +28,6 @@
       li {
         margin: 15px 0;
         font-size: 14px;
-        a {
-          color: $dark-4 !important;
-        }
       }
     }
   }

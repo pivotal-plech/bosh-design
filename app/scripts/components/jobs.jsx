@@ -33,10 +33,6 @@ var Jobs = React.createClass({
         <p>Github source: <a href="https://github.com/cloudfoundry/bosh/tree/8002a933/jobs/blobstore"><code>8002a933</code></a> or <a href="https://github.com/cloudfoundry/bosh/tree/master/jobs/blobstore">master</a> branch</p>
         <h3 className="page-header h1">Configuration Properties</h3>
         <p>Replace <code>???</code>s with appropriate values. Following example does not account for release job collocation or for optional/conflicting properties.</p>
-        <p>
-          <a href="#" className="btn btn-default btn-sm mrxl"><span>Hide</span><span>Show</span> properties with defaults</a> 
-          <a href="#" className="btn btn-default btn-sm"><span>Hide</span><span>Show</span> property descriptions</a>
-        </p>
         <ul className="property-items">
           <li className="indent-0">
             <div className="key">

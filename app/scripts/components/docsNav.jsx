@@ -25,7 +25,9 @@ var DocsNav = React.createClass({
                   </li>
                 </ul>
               </li>
-              <li>Comparison to other tools</li>
+              <li>
+                Comparison to other tools
+              </li>
             </ul>
           </li>
           <li>
